@@ -1,0 +1,104 @@
+html {
+  background-color: #FC4A1A;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 35px;
+  border: 2px solid black;
+  padding: 3px 8px;
+}
+
+.bg-light {
+  background-color: #000 !important;
+}
+
+.profile_pic {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+}
+
+.about_pic {
+  width: 35%;
+  height: auto;
+  margin: 20px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #FC4A1A;
+}
+
+.content {
+  background-color: #FC4A1A;
+}
+
+.line-break {
+  height: 20px;
+  background-color: #FC4A1A;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 45px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.contact a, .grid-wrapper a {
+  color: #66B032;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+}
+
+article {
+  flex: 3;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-wrapper p {
+  align-self: center;
+  justify-self: center;
+}
+
+.review {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.masonry {
+  column-count: 4;
+  column-gap: 1em;
+  column-width: 150px;
+  margin: 1.5em auto;
+}
+
+.masonry img {
+  display: inline-block;
+  padding: 1em;
+  margin 0 0 1.5em;
+  width: 100% !important;
+  height: auto !important;
+}
